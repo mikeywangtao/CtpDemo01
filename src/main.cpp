@@ -47,6 +47,7 @@ TThostFtdcInstrumentIDType g_pTradeInstrumentID = "rb1801";        // 所交易的合
 TThostFtdcDirectionType gTradeDirection = THOST_FTDC_D_Sell;       // 买卖方向
 TThostFtdcPriceType gLimitPrice = 2; //22735;                           // 交易价格
 
+
 int main()
 {
 	// 账号密码
