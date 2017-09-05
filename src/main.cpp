@@ -62,14 +62,6 @@ int main()
 	i = boost::lexical_cast<int>(mystr);
 	cout << "boost TypeTre:" << i << endl;
 
-
-
-
-
-
-
-
-
 	// 初始化行情线程
 	cout << "初始化行情..." << endl;
 	g_pMdUserApi = CThostFtdcMdApi::CreateFtdcMdApi();   // 创建行情实例
